@@ -2,7 +2,9 @@
 
 this is a web wallet app FE
 
-## to Clone the app at your Local
+## To Clone the app at your Local
+
+clone the repo and
 
 Run the following command:
 
