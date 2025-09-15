@@ -4,13 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@prisma/client": "6.16.1"
+    "@prisma/client": "^6.16.1"
   },
   "devDependencies": {
     "@prisma/client": "^6.16.1",
     "prisma": "^6.16.1"
   },
-  "exports":{
-    "./client":"./src/index.ts"
+  "exports": {
+    "./client": "./src/index.ts"
   }
 }
