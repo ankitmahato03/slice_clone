@@ -4,6 +4,7 @@ type Props = Omit<ImageProps, "src"> & {
   srcDark: string;
 };
 import { PrismaClient } from "@repo/prisma/client";
+
 const client = new PrismaClient();
 const ThemeImage = (props: Props) => {
   const { srcLight, srcDark, ...rest } = props;
