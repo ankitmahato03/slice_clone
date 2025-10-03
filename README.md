@@ -10,6 +10,13 @@ Run the following command:
 
 ```sh
 yarn install
+
+```
+
+## Run the Db locally
+
+```sh
+docker run -e POSTGRES_PASSWORD=mypassword -d -p 5432:5432 postgres
 ```
 
 ## What's inside?
