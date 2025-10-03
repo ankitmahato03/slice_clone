@@ -1,6 +1,6 @@
 ## About App
 
-this is a web wallet app FE
+This is a web wallet app FE
 
 ## To Clone the app at your Local
 
