@@ -5,14 +5,13 @@ import {
   FieldGroup,
   FieldLabel,
   FieldLegend,
-  FieldSeparator,
   FieldSet,
 } from "@/components/ui/field";
 import { Input } from "@/components/ui/input";
 
 export function AppSignUp() {
   return (
-    <div className="w-full max-w-md bg-gray-50 p-6 rounded-lg shadow-md">
+    <div className="w-full max-w-md bg-gray-50 p-6 rounded-lg border-amber-200 border shadow-md">
       <form>
         <FieldGroup>
           <FieldSet>
@@ -20,24 +19,14 @@ export function AppSignUp() {
             <FieldGroup>
               <div className="grid grid-cols-2 gap-4">
                 <Field>
-                  <FieldLabel htmlFor="checkout-7j9-card-name-43j">
+                  <FieldLabel htmlFor="signup-first-name">
                     First Name
                   </FieldLabel>
-                  <Input
-                    id="checkout-7j9-card-name-43j"
-                    placeholder="Evil"
-                    required
-                  />
+                  <Input id="signup-first-name" placeholder="Evil" required />
                 </Field>
                 <Field>
-                  <FieldLabel htmlFor="checkout-7j9-card-name-43j">
-                    Last Name
-                  </FieldLabel>
-                  <Input
-                    id="checkout-7j9-card-name-43j"
-                    placeholder="Rabbit"
-                    required
-                  />
+                  <FieldLabel htmlFor="signup-last-name">Last Name</FieldLabel>
+                  <Input id="signup-last-name" placeholder="Rabbit" required />
                 </Field>
               </div>
               <Field>
@@ -58,7 +47,7 @@ export function AppSignUp() {
               </Field>
             </FieldGroup>
           </FieldSet>
-          <Field orientation="horizontal">
+          <Field>
             <Button type="submit">Submit</Button>
           </Field>
 
