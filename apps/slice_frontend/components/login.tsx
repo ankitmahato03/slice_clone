@@ -11,7 +11,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 
-export function AppLogin() {
+export const AppLogin=()=> {
   return (
     <Card className="w-full justify-center max-w-md mx-auto ">
       <CardHeader className="items-center text-center text-2xl">
